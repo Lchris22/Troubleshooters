@@ -46,6 +46,7 @@ function App() {
 						<Route path='/earnings' element={<SectionType type='earnings' />} />
 						{/* <Route path='/bank' element={<SectionType type='bank' />} /> */}
 						<Route path='/mutual' element={<Mutual/>}/>
+						<Route path='/tax' element={< SectionType/>}/>
 					</Routes>
 				</>
 			}
