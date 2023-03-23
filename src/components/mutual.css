@@ -62,3 +62,30 @@
 	transition: all 0.4s ease-in-out;
 	box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
 }
+.all-containers{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+form{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+}
+.container1{
+  position: relative;
+  margin-left: 120px;
+}
+.container2{
+  position: inherit;
+  margin-right:120px;
+}
+.btn{
+  width: 200px;
+  height:90px;
+}
+h2{
+  position: static;
+  margin-top: 30px;
+}

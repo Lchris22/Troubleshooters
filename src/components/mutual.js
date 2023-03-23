@@ -87,7 +87,7 @@ const LumphandleCalculate = (event) => {
           <input type="number" value={tenure} onChange={handleTenureChange} />
         </label>
         <br />
-        <button type="submit">Calculate</button>
+        <button className='btn' type="submit">Calculate</button>
       </form>
       <h2>Result: {result}</h2>
     </div>
